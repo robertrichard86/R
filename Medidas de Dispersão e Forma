@@ -1,6 +1,9 @@
 install.packages("e1071")
 library(e1071)
 
+#Carregar arquivo
+ceagfgv <- read.csv("C:/Users/USER/Desktop/Arquivos/Estudos/FATEC/4 Ciclo/Teoria do Aprendizado Estatístico/Exemplo RStudio/ceagfgv.csv")
+
 #Medidas de posição
 summary(ceagfgv$salario)
 mediana_salario <- median(ceagfgv$salario)
